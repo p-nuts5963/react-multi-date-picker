@@ -82,7 +82,7 @@ function DatePicker(
     inputRef = useRef(),
     calendarRef = useRef(),
     ref = useRef({}),
-    separator = range || weekPicker ? " ~ " : ", ",
+    separator = range || weekPicker ? " ~ " : ",",
     datePickerProps = arguments[0],
     isMobileMode = isMobile(),
     closeCalendar = useCallback(() => {
